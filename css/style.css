@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    background-color: rgb(9, 160, 160);
+    background: url('https://cdn.pixabay.com/photo/2019/08/09/06/12/car-racing-4394450_960_720.jpg') 
+    bottom no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: azure;
+    border-bottom: 10px solid brown;
+    font-size: 10em;
+    font-family: 'Open Sans', sans-serif;
+    text-shadow: darkred 3px 3px 3px;
+}
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+footer .links {
+    margin-bottom: 50px;
+}
+
+footer .links > a {
+    color: dimgray;
+    padding: 0 2em;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.copyright {
+    color: rgb(131, 16, 16);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    word-spacing: 0.2em;
+}
+
+.news {
+    background-color: rgb(255, 255, 255);
+    padding: 50px 0 32px;
+}
+
+article {
+    width: 700px;
+    margin: 0 130px 32px;
+    padding: 6px 20px;
+    <!-- border-bottom: 2px solid black; -->
+}
+
+article a {
+    color: rgb(87, 19, 0);
+    text-decoration: none;
+}
+
+article a:hover {
+    color: mediumblue;
+}
+
+article h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 10px;
+}
+
+.article-meta {
+    color: rgb(104, 103, 103);
+    margin-bottom: 10px;
+}
+
+article img {
+    width: 70%; 
+    <!-- height: 200px; -->
+    object-fit: cover;
+}
