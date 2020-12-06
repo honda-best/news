@@ -1,0 +1,14 @@
+.grid-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 1px;
+    grid-column-gap: 1px;
+    grid-row-gap: 1px;
+}
+
+.grid-container > div {
+    <!-- font-size: 2rem;
+     padding: 1em; -->
+    background: steelblue; 
+}
